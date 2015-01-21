@@ -21,13 +21,13 @@ Or install it yourself as:
 ## Usage
   utils = CsvOption::Utils.new("#{fixture_path}/test.csv")
 
-  #determine column separator
+  ### Determine column separator
   utils.determine_column_separator
   
-  #determine headers of csv file(Assuming the firstline will always be header)
+  ### Determine headers of csv file(Assuming the firstline will always be header)
   utils.parse_headers
   
-  #determing row options
+  ### Determing row options
   utils.determine_row_separator
 ## Contributing
 
